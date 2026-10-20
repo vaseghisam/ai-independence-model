@@ -1,0 +1,54 @@
+{
+  "A_formal": {
+    "max_state_refinement_difference": 3.0946978313295403e-09,
+    "max_stock_balance_residual": 8.881784197001252e-15
+  },
+  "B_human_observations": {
+    "max_state_refinement_difference": 1.5708412348658385e-09,
+    "max_stock_balance_residual": 7.105427357601002e-15
+  },
+  "C_sensor_handoff": {
+    "max_state_refinement_difference": 1.5764713978683176e-09,
+    "max_stock_balance_residual": 1.3322676295501878e-14
+  },
+  "D_low_verified_yield": {
+    "max_state_refinement_difference": 1.4911227808056537e-09,
+    "max_stock_balance_residual": 1.1368683772161603e-13
+  },
+  "E_human_renewal": {
+    "max_state_refinement_difference": 4.338070347387202e-08,
+    "max_stock_balance_residual": 2.1316282072803006e-14
+  },
+  "F_evidence_interrupted": {
+    "max_state_refinement_difference": 3.021203731634614e-09,
+    "max_stock_balance_residual": 5.329070518200751e-15
+  },
+  "boundary_checks": "empty seed; zero q; no observations with lambda=1; analytic yield equality: passed",
+  "sensitivity_grid_max_state_error": 1.1315393066979595e-12,
+  "standalone_exhibits": {
+    "A_formal": {
+      "max_endpoint_difference_from_baseline": 9.695533265130507e-11,
+      "plotted_samples": 2001
+    },
+    "B_human_observations": {
+      "max_endpoint_difference_from_baseline": 1.7073231717290582e-11,
+      "plotted_samples": 2001
+    },
+    "C_sensor_handoff": {
+      "max_endpoint_difference_from_baseline": 4.093769767621325e-11,
+      "plotted_samples": 2001
+    },
+    "D_low_verified_yield": {
+      "max_endpoint_difference_from_baseline": 2.78388423424758e-12,
+      "plotted_samples": 2001
+    },
+    "E_human_renewal": {
+      "max_endpoint_difference_from_baseline": 2.759819039965805e-10,
+      "plotted_samples": 2001
+    },
+    "F_evidence_interrupted": {
+      "max_endpoint_difference_from_baseline": 9.051981386676289e-12,
+      "plotted_samples": 2002
+    }
+  }
+}

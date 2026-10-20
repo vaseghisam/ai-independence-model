@@ -1,0 +1,332 @@
+{
+  "A_formal": {
+    "parameters": {
+      "budget": 1.0,
+      "a_h": 1.0,
+      "a_a": 1.0,
+      "q": 0.9,
+      "K": 1.0,
+      "c_mid": 0.8,
+      "n": 2.0,
+      "beta": 8.0,
+      "p_h": 0.015,
+      "gamma_h": 0.09,
+      "gamma_a": 0.09,
+      "gamma_e": 0.03,
+      "delta": 0.015,
+      "e_h": 0.0,
+      "e_m": 0.0,
+      "cost_h": 0.6,
+      "cost_m": 0.2,
+      "empirical": 0.0,
+      "e_mid": 0.2,
+      "r_init": 6.0,
+      "c_init": 0.15,
+      "p_after": null,
+      "renewal_time": 35.0,
+      "sensor_handoff": false,
+      "sensor_time": 35.0,
+      "sensor_width": 5.0,
+      "sensor_final": 0.6,
+      "observation_stop": null,
+      "human_stop": null,
+      "gamma_a_stop": null
+    },
+    "yield_crossings": [
+      {
+        "time": 8.989209571017701,
+        "direction": "AI leads"
+      }
+    ],
+    "C_final": 3.546984486472813,
+    "R_final": 0.7133216324323762,
+    "human_intellectual_share_final": 0.014174472804132707,
+    "human_direct_share_final": 0.014174472804132707,
+    "human_share_below_5pct_final_interval": true,
+    "J_H_final": 0.01196028591279325,
+    "J_A_final": 0.8318302435879661,
+    "E_H_final": 0.0,
+    "E_M_final": 0.0,
+    "budget_final": 1.0
+  },
+  "B_human_observations": {
+    "parameters": {
+      "budget": 1.0,
+      "a_h": 1.0,
+      "a_a": 1.8,
+      "q": 0.9,
+      "K": 1.0,
+      "c_mid": 0.8,
+      "n": 2.0,
+      "beta": 8.0,
+      "p_h": 0.015,
+      "gamma_h": 0.09,
+      "gamma_a": 0.09,
+      "gamma_e": 0.03,
+      "delta": 0.015,
+      "e_h": 0.35,
+      "e_m": 0.03,
+      "cost_h": 0.6,
+      "cost_m": 0.2,
+      "empirical": 1.0,
+      "e_mid": 0.2,
+      "r_init": 6.0,
+      "c_init": 0.15,
+      "p_after": null,
+      "renewal_time": 35.0,
+      "sensor_handoff": false,
+      "sensor_time": 35.0,
+      "sensor_width": 5.0,
+      "sensor_final": 0.6,
+      "observation_stop": null,
+      "human_stop": null,
+      "gamma_a_stop": null
+    },
+    "yield_crossings": [
+      {
+        "time": 10.332077192841659,
+        "direction": "AI leads"
+      }
+    ],
+    "C_final": 4.004992995497585,
+    "R_final": 1.1649431894442515,
+    "human_intellectual_share_final": 0.010979859061462836,
+    "human_direct_share_final": 0.3059562473204333,
+    "human_share_below_5pct_final_interval": true,
+    "J_H_final": 0.008700341157235066,
+    "J_A_final": 0.7836906274820225,
+    "E_H_final": 0.35,
+    "E_M_final": 0.03,
+    "budget_final": 0.784
+  },
+  "C_sensor_handoff": {
+    "parameters": {
+      "budget": 1.0,
+      "a_h": 1.0,
+      "a_a": 1.8,
+      "q": 0.9,
+      "K": 1.0,
+      "c_mid": 0.8,
+      "n": 2.0,
+      "beta": 8.0,
+      "p_h": 0.015,
+      "gamma_h": 0.09,
+      "gamma_a": 0.09,
+      "gamma_e": 0.03,
+      "delta": 0.015,
+      "e_h": 0.35,
+      "e_m": 0.03,
+      "cost_h": 0.6,
+      "cost_m": 0.2,
+      "empirical": 1.0,
+      "e_mid": 0.2,
+      "r_init": 6.0,
+      "c_init": 0.15,
+      "p_after": null,
+      "renewal_time": 35.0,
+      "sensor_handoff": true,
+      "sensor_time": 35.0,
+      "sensor_width": 5.0,
+      "sensor_final": 0.6,
+      "observation_stop": null,
+      "human_stop": null,
+      "gamma_a_stop": null
+    },
+    "yield_crossings": [
+      {
+        "time": 10.322561738271474,
+        "direction": "AI leads"
+      }
+    ],
+    "C_final": 5.191789940727054,
+    "R_final": 1.4167282181988516,
+    "human_intellectual_share_final": 0.004029135655418121,
+    "human_direct_share_final": 0.0025556423877889124,
+    "human_share_below_5pct_final_interval": true,
+    "J_H_final": 0.004190736748242204,
+    "J_A_final": 1.0359173923009182,
+    "E_H_final": 7.918349064051088e-07,
+    "E_M_final": 0.5999987104402953,
+    "budget_final": 0.8799997828109971
+  },
+  "D_low_verified_yield": {
+    "parameters": {
+      "budget": 1.0,
+      "a_h": 1.0,
+      "a_a": 1.0,
+      "q": 0.08,
+      "K": 1.0,
+      "c_mid": 0.8,
+      "n": 2.0,
+      "beta": 8.0,
+      "p_h": 0.15,
+      "gamma_h": 0.09,
+      "gamma_a": 0.09,
+      "gamma_e": 0.03,
+      "delta": 0.015,
+      "e_h": 0.05,
+      "e_m": 0.0,
+      "cost_h": 0.6,
+      "cost_m": 0.2,
+      "empirical": 0.0,
+      "e_mid": 0.2,
+      "r_init": 6.0,
+      "c_init": 0.15,
+      "p_after": null,
+      "renewal_time": 35.0,
+      "sensor_handoff": false,
+      "sensor_time": 35.0,
+      "sensor_width": 5.0,
+      "sensor_final": 0.6,
+      "observation_stop": null,
+      "human_stop": null,
+      "gamma_a_stop": null
+    },
+    "yield_crossings": [],
+    "C_final": 0.9781246732744052,
+    "R_final": 0.2504845308587178,
+    "human_intellectual_share_final": 0.9339515880211793,
+    "human_direct_share_final": 0.9496337298893347,
+    "human_share_below_5pct_final_interval": false,
+    "J_H_final": 0.1499784224248091,
+    "J_A_final": 0.01060637056491922,
+    "E_H_final": 0.05,
+    "E_M_final": 0.0,
+    "budget_final": 0.97
+  },
+  "E_human_renewal": {
+    "parameters": {
+      "budget": 1.0,
+      "a_h": 1.0,
+      "a_a": 1.0,
+      "q": 0.9,
+      "K": 1.0,
+      "c_mid": 0.8,
+      "n": 2.0,
+      "beta": 8.0,
+      "p_h": 0.015,
+      "gamma_h": 0.09,
+      "gamma_a": 0.09,
+      "gamma_e": 0.03,
+      "delta": 0.015,
+      "e_h": 0.0,
+      "e_m": 0.0,
+      "cost_h": 0.6,
+      "cost_m": 0.2,
+      "empirical": 0.0,
+      "e_mid": 0.2,
+      "r_init": 6.0,
+      "c_init": 0.15,
+      "p_after": 0.75,
+      "renewal_time": 35.0,
+      "sensor_handoff": false,
+      "sensor_time": 35.0,
+      "sensor_width": 5.0,
+      "sensor_final": 0.6,
+      "observation_stop": null,
+      "human_stop": null,
+      "gamma_a_stop": null
+    },
+    "yield_crossings": [
+      {
+        "time": 8.989209571017701,
+        "direction": "AI leads"
+      },
+      {
+        "time": 38.87290419731373,
+        "direction": "human leads"
+      }
+    ],
+    "C_final": 3.7596906536666044,
+    "R_final": 14.189279234758558,
+    "human_intellectual_share_final": 0.660769265854584,
+    "human_direct_share_final": 0.660769265854584,
+    "human_share_below_5pct_final_interval": false,
+    "J_H_final": 0.599975882309107,
+    "J_A_final": 0.30802016610447674,
+    "E_H_final": 0.0,
+    "E_M_final": 0.0,
+    "budget_final": 1.0
+  },
+  "F_evidence_interrupted": {
+    "parameters": {
+      "budget": 1.0,
+      "a_h": 1.0,
+      "a_a": 1.8,
+      "q": 0.9,
+      "K": 1.0,
+      "c_mid": 0.8,
+      "n": 2.0,
+      "beta": 8.0,
+      "p_h": 0.015,
+      "gamma_h": 0.09,
+      "gamma_a": 0.09,
+      "gamma_e": 0.03,
+      "delta": 0.015,
+      "e_h": 0.35,
+      "e_m": 0.03,
+      "cost_h": 0.6,
+      "cost_m": 0.2,
+      "empirical": 1.0,
+      "e_mid": 0.2,
+      "r_init": 6.0,
+      "c_init": 0.15,
+      "p_after": null,
+      "renewal_time": 35.0,
+      "sensor_handoff": false,
+      "sensor_time": 35.0,
+      "sensor_width": 5.0,
+      "sensor_final": 0.6,
+      "observation_stop": 40.0,
+      "human_stop": null,
+      "gamma_a_stop": null
+    },
+    "yield_crossings": [
+      {
+        "time": 10.332077192841659,
+        "direction": "AI leads"
+      },
+      {
+        "time": 40.0,
+        "direction": "human leads"
+      }
+    ],
+    "C_final": 0.8769008833998386,
+    "R_final": 0.02783209696788199,
+    "human_intellectual_share_final": 1.0,
+    "human_direct_share_final": 1.0,
+    "human_share_below_5pct_final_interval": false,
+    "J_H_final": 0.015000000000000246,
+    "J_A_final": 0.0,
+    "E_H_final": 0.0,
+    "E_M_final": 0.0,
+    "budget_final": 1.0
+  },
+  "counterfactuals": {
+    "B_human_observations": {
+      "intervention": {
+        "human_stop": 60.0
+      },
+      "baseline_C_final": 4.004992995497585,
+      "intervention_C_final": 2.0789117874646332,
+      "ratio": 0.5190800058331554
+    },
+    "C_sensor_handoff": {
+      "intervention": {
+        "human_stop": 60.0
+      },
+      "baseline_C_final": 5.191789940727054,
+      "intervention_C_final": 5.20164836877398,
+      "ratio": 1.0018988495604555
+    },
+    "A_formal": {
+      "intervention": {
+        "gamma_a_stop": 60.0
+      },
+      "baseline_C_final": 3.546984486472813,
+      "intervention_C_final": 1.3470847202381226,
+      "ratio": 0.37978308768350116
+    }
+  },
+  "status": "Illustrative parameter choices; uncalibrated; time is not calendar time."
+}
