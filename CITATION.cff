@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "Please cite this computational companion when using its code, model outputs or figures. Cite the accompanying article separately for its broader argument."
+type: software
+title: "AI independence — computational companion"
+authors:
+  - family-names: Vaseghi
+    given-names: Sam
+version: 0.2.1
+abstract: "Reproducible illustrative simulations of changing AI dependence on human intellectual material, autonomous investigation, human observations and machine observations. Includes six scenarios, input-removal experiments, sensitivity analysis, figures and an animation. Mathematical model version 0.2."
+keywords:
+  - artificial intelligence
+  - knowledge acquisition
+  - dynamical systems
+  - sensor observations
+  - reproducible simulation
